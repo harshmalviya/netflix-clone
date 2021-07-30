@@ -1,0 +1,75 @@
+.menu {
+    box-sizing: border-box;
+    height: 36.3vh;
+    width: 11vw;
+    position: fixed;
+    top: 7.5vh;
+    right: 4vw;
+    z-index: 100;
+    background: rgba(0, 0, 0, 0.85);
+    border: 1px solid grey;
+    animation: fadeIn 0.7s;
+}
+
+@keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+  
+.menuitem {
+    padding: 5px 10px;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    align-items: center;
+    height: 5vh;
+    cursor: pointer;
+}
+.menuitem > p:hover {
+    text-decoration: underline;
+}
+.menuitem > p {
+    margin-left: 5px;
+    color: white;
+    font-weight: 500;
+    font-size: 0.8rem;
+}
+
+.menuitem > img {
+    height: 32px;
+    width: 31px;
+    border-radius: 5px;
+}
+.menuprofiles {
+    margin-top: 8px;
+    margin-bottom: 10px;
+}
+.menuprofiles > a {
+    text-decoration: none;
+    color: white;
+    font-size: 0.825rem;
+    font-weight: 500;
+    margin-left: 10px;
+}
+.menuprofiles > a:hover {
+    text-decoration: underline;
+}
+.menulinks {
+    border-top: 1px solid grey;
+    display: flex;
+    flex-direction: column;
+    padding-top: 5px;
+    padding-bottom: 2px;
+    align-items: flex-start;
+
+}
+.menulinks a {
+    text-decoration: none;
+    color: white;
+    font-size: 0.825rem;
+    font-weight: 700;
+    margin: 3px 10px;
+}
+.menulinks a:hover{
+    text-decoration: underline;
+}
+

@@ -1,0 +1,30 @@
+.modal {
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
+  position: fixed;
+  top: 0vh;
+  left: 45vw;
+  width: 30rem;
+  height: 08rem;
+}
+.modal__header-para {
+  display: flex;
+  font-size: 1.3rem;
+  justify-content: flex-end;
+  padding: 0 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  
+}
+.modal__main {
+    margin: 0rem 1rem 0.5rem;
+}
+.modal__main-text {
+    font-size: 1.1rem;
+}
+.modal__main-text>span:hover {
+    background-color: red;
+    color: white;
+    /* padding: 0.1rem 0.6rem; */
+    cursor: pointer;
+}
