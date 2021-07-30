@@ -40,7 +40,7 @@ function ProfileScreen() {
         )}
 
         <div className="profileScreen__body">
-          <h1>{isSubscribed ? "Edit Profile" : "Select a Plan"}</h1>
+          <h1>{isSubscribed ? "Edit Profile" : "Select A Plan"}</h1>
           <div className="profileScreen__info">
             <img
               src="https://upload.wikimedia.org/wikipedia/commons/0/0b/Netflix-avatar.png"
