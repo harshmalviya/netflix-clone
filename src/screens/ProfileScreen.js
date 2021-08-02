@@ -55,7 +55,7 @@ function ProfileScreen() {
                   onClick={signOutAccountHandler}
                   className="profileScreen__signOut"
                 >
-                  {signingOut ? "Signing Out..." : "Sign Out"}
+                  {signingOut ? "Signing Out...." : "Sign Out"}
                 </button>
               </div>
             </div>
